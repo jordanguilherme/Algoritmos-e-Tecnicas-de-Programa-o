@@ -12,7 +12,7 @@ while True:
     if media >= 6:
         print (f"O Aluno está aprovado com média {media:.1f}") #
     else:
-        print (f"O Aluno está reprovado com média {media:.1f}") #o comando :.1f serve para exibir o numero de casas decimais desejadas (1f é 1 casa decimal, 2f são duas casas cimais...)
+        print (f"O Aluno está reprovado com média {media:.1f}") #o comando :.1f serve para exibir o numero de casas decimais desejadas (1f é 1 casa decimal, 2f são duas casas decimais...)
     opcao = input("Deseja cadastrar mais um aluno? (s/n)")
     if opcao.upper() !="s": #upper (maiusculo) ou lower (minusculo)
         break
